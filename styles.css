@@ -1,0 +1,117 @@
+/* Đặt các style chung */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff; /* Nền xanh dương rất nhạt */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+   }
+   
+   .container {
+    max-width: 800px;
+    width: 90%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+   }
+   
+   .profile-section {
+    text-align: center;
+   }
+   
+   .avatar {
+    border-radius: 50%;
+    margin-bottom: 15px;
+   }
+   
+   h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: #004aad;
+   }
+   
+   p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+   }
+   
+   .buttons button {
+    margin: 5px 0;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   
+   .buttons button:hover {
+    background-color: #005bb5;
+   }
+   
+   .info-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+   }
+   
+   .info-section > div {
+    background-color: #e6f7ff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+   }
+   
+   h3 {
+    font-size: 1.4rem;
+    color: #004aad;
+    margin-bottom: 10px;
+   }
+   
+   ul {
+    list-style: none;
+    padding-left: 0;
+   }
+   
+   ul li {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #333;
+   }
+   
+   .social-section {
+    text-align: center;
+   }
+   
+   .social-section button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #3b5998;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   
+   .social-section button:hover {
+    background-color: #2d4373;
+   }
+   
+   .social-section button i {
+    margin-right: 8px;
+   }
